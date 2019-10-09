@@ -25,7 +25,7 @@ Later:
 ## Installation
 
 ```
-$ go get golang.org/x/net/http2/h2i
+$ go get github.com/Psiphon-Labs/net/http2/h2i
 $ h2i <host>
 ```
 

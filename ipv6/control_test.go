@@ -7,7 +7,7 @@ package ipv6_test
 import (
 	"testing"
 
-	"golang.org/x/net/ipv6"
+	"github.com/Psiphon-Labs/net/ipv6"
 )
 
 func TestControlMessageParseWithFuzz(t *testing.T) {

@@ -10,7 +10,7 @@
 //
 //     https://godoc.org/github.com/gorilla/websocket
 //     https://godoc.org/nhooyr.io/websocket
-package websocket // import "golang.org/x/net/websocket"
+package websocket // import "github.com/Psiphon-Labs/net/websocket"
 
 import (
 	"bufio"

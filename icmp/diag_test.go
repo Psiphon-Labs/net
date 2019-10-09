@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/icmp"
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/ipv4"
-	"golang.org/x/net/ipv6"
-	"golang.org/x/net/nettest"
+	"github.com/Psiphon-Labs/net/icmp"
+	"github.com/Psiphon-Labs/net/internal/iana"
+	"github.com/Psiphon-Labs/net/ipv4"
+	"github.com/Psiphon-Labs/net/ipv6"
+	"github.com/Psiphon-Labs/net/nettest"
 )
 
 var testDiag = flag.Bool("diag", false, "whether to test ICMP message exchange with external network")

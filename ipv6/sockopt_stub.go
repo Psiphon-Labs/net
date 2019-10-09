@@ -9,8 +9,8 @@ package ipv6
 import (
 	"net"
 
-	"golang.org/x/net/bpf"
-	"golang.org/x/net/internal/socket"
+	"github.com/Psiphon-Labs/net/bpf"
+	"github.com/Psiphon-Labs/net/internal/socket"
 )
 
 func (so *sockOpt) getMulticastInterface(c *socket.Conn) (*net.Interface, error) {

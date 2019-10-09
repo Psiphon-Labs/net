@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"testing"
 
-	"golang.org/x/net/http2"
+	"github.com/Psiphon-Labs/net/http2"
 )
 
 func TestSettingsAckSwallowWriter(t *testing.T) {

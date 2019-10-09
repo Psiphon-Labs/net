@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/ipv6"
+	"github.com/Psiphon-Labs/net/internal/iana"
+	"github.com/Psiphon-Labs/net/ipv6"
 )
 
 var (

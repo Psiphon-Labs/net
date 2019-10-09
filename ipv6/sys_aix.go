@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/internal/socket"
+	"github.com/Psiphon-Labs/net/internal/iana"
+	"github.com/Psiphon-Labs/net/internal/socket"
 )
 
 var (

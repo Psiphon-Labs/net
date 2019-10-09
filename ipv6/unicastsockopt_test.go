@@ -9,9 +9,9 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/ipv6"
-	"golang.org/x/net/nettest"
+	"github.com/Psiphon-Labs/net/internal/iana"
+	"github.com/Psiphon-Labs/net/ipv6"
+	"github.com/Psiphon-Labs/net/nettest"
 )
 
 func TestConnUnicastSocketOptions(t *testing.T) {
