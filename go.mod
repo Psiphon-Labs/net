@@ -1,4 +1,4 @@
-module golang.org/x/net
+module github.com/Psiphon-Labs/net
 
 go 1.11
 
